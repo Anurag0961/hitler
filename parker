@@ -29,6 +29,7 @@ pipeline
             steps
             {
              git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
+            sh 'java -jar /var/lib/jenkins/workspace/job3/testing.jar'
              
             }
         }
